@@ -320,6 +320,41 @@ span{
     margin-top: 2rem;
 
 }
+/* left side algin contact */
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.contact-container form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline; /* 👈 keeps it left-aligned inside the box */
+  justify-content: center; /* 👈 centers vertically */
+  min-height: 100%;
+  text-align: center;
+  padding: 1rem;
+
+  
+}
+
+.contact-detail h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .footer{
     display: flex;
     justify-content: space-between;

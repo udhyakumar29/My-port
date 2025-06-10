@@ -203,18 +203,33 @@
   <h2 class="heading">Contact <span>Me!</span></h2>
 
   <div class="contact-wrapper">
-    <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder=" Full Name" />
-        <input type="email" placeholder=" Email Address" />
+    <div class="contact-container">
+      <form action="mailto:udhaisekar18@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+          <input type="text" name="Full Name" placeholder="Full Name" />
+          <input type="email" name="Email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" name="Mobile" placeholder="Mobile Number" />
+          <input type="text" name="Subject" placeholder="Email Subject" />
+        </div>
+        <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+
+      <div class="contact-detail">
+        <h2><i class="fa-solid fa-phone"></i> - 91+8270703884</h2>
+        <h2><i class="fa-solid fa-envelope"></i> - udhaisekar18@gmail.com</h2>
+        <h2><i class="fa-solid fa-location-dot"></i> - Thirupattur - Tamilnadu</h2>
+        <div class="social-media">
+                <a href="https://www.linkedin.com/in/udhayakumar29/"><i class="fa-brands fa-linkedin"></i></i></a>
+                <a href="https://github.com/udhyakumar29"><i class="fa-brands fa-square-github"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
       </div>
-      <div class="input-box">
-        <input type="number" placeholder=" Mobile Number" />
-        <input type="text" placeholder=" Email Subject" />
-      </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-      <input type="submit" value="Send Message" class="btn" />
-    </form>
+    </div>
+  </div>
 </section>
 
 <!-- footer -->
